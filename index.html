@@ -43,39 +43,38 @@
 
         <!-- Form item - Contact -->
         <div class="form-step">
-            <h3>Your task location</h3>
+            <h3>Your contact</h3>
             <div class="input-group">
-                <label for="username">Username</label>
-                <input type="text" name="username" id="username" />
+                <input type="text" name="fullname" id="fullname" placeholder="Full name"/>
             </div>
             <div class="input-group">
-                <label for="email">Email Address</label>
-                <input type="text" name="email" id="email" />
+                <input type="text" name="email" id="email" placeholder="Email"/>
             </div>
             <div class="input-group">
-                <label for="phone">Phone Number</label>
-                <input type="number" name="phone" id="phone" />
+                <input type="tel" name="phone" id="phone" placeholder="Phone"/>
             </div>
             <div class="btns-group">
                 <a href="#" class="btn btn-prev">Back</a>
-                <a href="#" class="btn btn-next">Next</a>
+                <a href="#" class="btn btn-next">continue</a>
             </div>
         </div>
 
         <!-- Form item - Social -->
         <div class="form-step">
-            <div class="input-group">
-                <label for="instagram">Instagram Username</label>
-                <input type="text" name="instagram" id="instagram" />
+            <h3>Task options</h3>
+            <div class="input-group taskoption">
+                <h3>How big is your task?</h3>
+                <label>
+                    <input type="radio" name="task-size" value="Small - Est. 1 hr" /> Small - Est. 1 hr
+                </label>
+                <label>
+                    <input type="radio" name="task-size" value="Medium - Est. 2-3 hrs" /> Medium - Est. 2-3 hrs
+                </label>
+                <label>
+                    <input type="radio" name="task-size" value="Large - Est. 4+ hrs" /> Large - Est. 4+ hrs
+                </label>
             </div>
-            <div class="input-group">
-                <label for="text">Twitter Username</label>
-                <input type="text" name="twitter" id="twitter" />
-            </div>
-            <div class="input-group">
-                <label for="github">Github Username</label>
-                <input type="text" name="github" id="github" />
-            </div>
+
             <div class="btns-group">
                 <a href="#" class="btn btn-prev">Back</a>
                 <a href="#" class="btn btn-next">Next</a>
@@ -102,4 +101,4 @@
     <script src="main.js"></script>
 </body>
 
-</html>Z
+</html>
